@@ -342,8 +342,8 @@ transition: transform 0.3s ease;
    }
  
   .About-me h3 {
-     font-size: 1em;
-     margin: 10px;
+     font-size: 1.2em;
+     margin: 20px auto;
      padding: 20px;
      width: 100%;
    }
