@@ -11,7 +11,7 @@ export const PagenotFound = () => {
             <h2>
                 Por aquí no hay nada. Pero no te preocupes, puedes volves!
             </h2>
-            <Link to={"/"} className='button-view-portfolio'>IR AL POSTFOLIO ☝🏻</Link>
+            <Link to={"/"} className='button-view-portfolio'>IR AL PORTFOLIO ☝🏻</Link>
         </div>
     </section>
   )
