@@ -9,6 +9,7 @@ import { MoreMe } from './compon/MoreMe';
 import {Projects} from './compon/Projects';
 import { AllProjects } from './compon/AllProjects';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { PagenotFound } from './compon/PagenotFound';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             </>
           } />
           <Route path="/write-me" element={<WriteMe />} />
+          <Route path="*" element={<PagenotFound />} />
           <Route path="/more-me" element={
             <>
             <MoreMe />

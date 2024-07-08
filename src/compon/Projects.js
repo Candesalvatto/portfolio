@@ -28,7 +28,7 @@ export const Projects = () => {
       </div> */}
 
       <div className='web-proj-parallax'>
-        <Parallax bgImage={Khy} strength={200} className='parallax-img'>
+        <Parallax bgImage={Khy} strength={30} className='parallax-img'>
         </Parallax>
         <h3>Khy</h3>
       </div>
@@ -40,7 +40,7 @@ export const Projects = () => {
       </div>
 
       <div className='web-proj-parallax'>
-        <Parallax bgImage={Adidas} strength={100} className='parallax-img'>
+        <Parallax bgImage={Adidas} strength={30} className='parallax-img'>
         </Parallax>
         <h3>Adidas Kids</h3>
       </div>
