@@ -46,7 +46,7 @@ export const Projects = () => {
       </div>
 
       <div className='container-button-viewer'>
-      <Link to={"/projects"} className='button-view-projects'> VIEW ALL PROJECTS 🔥</Link>
+      <Link to={"/projects"} className='button-view-projects'> VER TODOS LOS PROYECTOS 🔥</Link>
       </div>
 
 
