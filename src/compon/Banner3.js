@@ -35,7 +35,7 @@ export const Banner3 = () => {
     <>
     <div className='banner3'>
         <h1>CANDELA SALVATTO</h1>
-        <h2>Web Developer</h2>
+        <h2>Desarrolladora Web</h2>
     </div>
     <div className='container-star'>
       <img src={star} alt='star' className='star-icon'/>
