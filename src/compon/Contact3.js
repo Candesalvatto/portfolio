@@ -33,6 +33,19 @@ export const Contact3 = () => {
     });
   };
 
+  const copyToClipboard = () => {
+    const emailSpan = document.querySelector('.text-span-link');
+  
+    if (emailSpan) {
+      const emailText = emailSpan.innerText;
+      const textarea = document.createElement('textarea');
+      textarea.value = emailText;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+    }
+  };
 
   return (
     <section className='contact-me'>
@@ -42,7 +55,7 @@ export const Contact3 = () => {
         <span className='text-span-13'>escribime un </span>
         <span className='text-span-6'>email</span>
         </div>
-        <span className='text-span-link'>cande.salvatto12@gmail.com</span>
+        <span className='text-span-link' onClick={copyToClipboard}>cande.salvatto12@gmail.com</span>
         </div>
         <div className='container-hr'>
             <hr/>

@@ -33,7 +33,6 @@ function App() {
             <MoreMe />
             <Contact3 />
             </>} />
-          <Route path="/write-me" element={<WriteMe/>} />
           <Route path="/projects" element={<>
           <AllProjects/>
           <Contact3 />

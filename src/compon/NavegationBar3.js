@@ -11,7 +11,7 @@ export const NavegationBar3 = () => {
 
   return (
 
-    <Navbar expand={false}  className=" NavCanvas bg-transparent mb-3 flex-column">
+    <Navbar expand={false} id="NavCanvas" className=" NavCanvas bg-transparent mb-3 flex-column">
     <Container fluid>
       <Navbar.Offcanvas
         show={showOffcanvas}

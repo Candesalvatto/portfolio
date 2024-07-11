@@ -215,7 +215,7 @@ margin: 150px auto;}
   }
 
   .banner3 h1 {
-    font-size: 18vw; 
+    font-size: 15vw; 
   }
 
   .banner3 h2 {
@@ -241,6 +241,7 @@ flex-direction: row;}
 font-size: 1.3em;
 color: #E9DFCE;
 width: 70%;
+letter-spacing: 3px;
 margin: 50px;
 padding: 50px;}
 
@@ -540,6 +541,18 @@ transition:  2.5s ease;
 
 /**********************WRITE*********/
 
+
+.my-swal-popup{
+  background-color: #0C130D;
+  border: 1px solid #0C130D;
+  border-radius: none;
+  width: 500px;
+}
+.my-swal-title{color:#388E3C;
+font-size: "Roboto";
+font-weight: 200;
+}
+.my-swal-icon{color:#388E3C;}
 .write{
 width: 100%;
 background-color: #E9DFCE;}
@@ -627,7 +640,7 @@ font-weight: 600;
 border: 1px solid #1E2125;
 background-color: #1E2125;
 color: #F0E9E2;
-width: 30%;
+width: 40%;
 margin: 20px auto;
 padding: 10px;
 border-radius: 30px ;
@@ -775,7 +788,7 @@ width: 50%;
 /*****************MORE ME*********************/
 .moreAboutMe{
 width: 70%;
-margin: auto;
+margin:  auto;
 display: flex;}
 
 .moreAboutMe img{width: 400px;}
@@ -783,13 +796,16 @@ display: flex;}
 .moreAboutMe h3{font-size: 1.3em;
   font-family: "British" ;
   color: #F0E9E2;
-width: 60%;
-margin: auto;}
+width: 70%;
+letter-spacing: 3px;
+text-align: left;
+margin: auto 0px auto 60px;}
 
 .moreAboutMeH2 {     font-size: 8.5em;
   text-align: left;
   margin-left: 60px;
-  width: 50%;
+  width: 70%;
+  margin-top: 100px;
   transform: translate(0px, 0%) rotate(-5.99986deg);
   font-family: 'Groovy', sans-serif  ;
   color: #F0E9E2;
@@ -805,7 +821,7 @@ margin: auto;}
 .skillsContainer {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Espacio entre los contenedores */
+  gap: 20px; 
   width: 100%;
 
 }
@@ -815,8 +831,8 @@ margin: auto;}
 .skillsCert {
   width: 100%;
   border-top: 2px solid #F0E9E2;
-  margin-bottom: 20px;
-  padding:  20px; /* Espaciado interno */
+  margin-bottom: 70px;
+  padding:  20px; 
 }
 
 .skillsHARD h5, 
@@ -834,21 +850,21 @@ margin: auto;}
   padding: 0;
   margin: 0;
   font-size: 1.2em;
-  gap: 10px; /* Espacio entre elementos de la lista */
+  gap: 10px; 
 }
 
 .containerUL li {
   color: #F0E9E2;
   list-style: none;
   font-family: "Centra";
-  font-size: 1.2em;
+  font-size: 1em;
   margin-top: 5px;
 }
 
 .moreSkills h5 {
   color: #F0E9E2;
   font-family: 'British';
-  font-size: 1.6em;
+  font-size: 2.6em;
   margin-bottom: 50px;
 }
 
@@ -861,14 +877,20 @@ margin: auto;}
   padding: 0;
   margin: 0;
   font-size: 1.2em;
-  gap: 10px; /* Espacio entre elementos de la lista */
-
+  gap: 10px; 
 }
+
+
+
 
 
 @media (min-width: 481px) and ( max-width: 850px) {
   .moreAboutMe img{width: 400px;}
-
+  .moreAboutMe {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
 
 .moreAboutMe h3{font-size: 1.8em;
 width: 95%;
@@ -878,28 +900,17 @@ margin: 50px auto;}
   margin-left: 60px;
   width: 70%;
 }
-
+.moreSkills h5 {
+  font-size: 2.3em;
+}
 .button-view-projects { font-size: 1em;}
 
+.moreAboutMe img {
+  width: 400px;
+  margin: auto;
+}
 }
 
-
- 
-@media (min-width: 481px) and (max-width: 850px) {
-  .moreAboutMe {
-     width: 90%;
-     display: flex;
-     flex-direction: column;
-   }
- 
-  .moreAboutMe img {
-     width: 400px;
-     margin: auto;
-   }
- 
-
- }
-  
 
  @media (max-width: 480px) {
 
@@ -917,6 +928,8 @@ margin: 50px auto;}
   .moreAboutMe h3 {
      font-size: 1.3em;
      width: 95%;
+     text-align: left;
+     margin: auto;
 
    }
    .moreAboutMeH2{font-size: 3.5em;
@@ -945,7 +958,13 @@ margin-left: 20px;}
   margin-top: 5px;
 }
 .button-view-projects {    font-size: 0.8em;}
+  
+
+  .moreSkills h5 {
+    font-size: 1.8em;
   }
+
+ }
 
 /**************PROJECTS*************************/
 
@@ -1066,7 +1085,7 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);} */
 
 
 .container-button-viewer{
-  margin: 100px auto;}
+  margin: 270px auto;}
 
   .button-view-projects {
     background-color: #E9DFCE;
@@ -1076,7 +1095,7 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);} */
     padding: 1.3em 1.3em;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 0.7em;
+    font-size: 0.9em;
     border: 1px solid #E9DFCE;
     border-radius: 100px;
     text-decoration: none;
@@ -1084,6 +1103,7 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);} */
     overflow: hidden;
     z-index: 1;
     transition: color 400ms;
+
   }
 
 
@@ -1158,6 +1178,11 @@ height: 100%;
 position:fixed;
 transition: transform 0.7s ease-in-out;
 }
+
+#NavCanvas{position: fixed;
+top: 0;
+right: 0;}
+
 
 #offcanvasNavbar .nav-link {
   font-family: 'Groovy', sans-serif;
