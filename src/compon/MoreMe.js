@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import React from 'react'
-import imgMe from'../assets/img/me.jpg'
+import imgMe from'../assets/img/photome.jpeg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -92,7 +92,7 @@ export const MoreMe = () => {
             </div>
 
             <div className='container-button-viewer'>
-      <a href="../assets/doc/cvcandela.pdf" download="cvcandela.pdf"  className='button-view-projects'> DESCARGAR CV 🚀</a>
+      <a href="../assets/doc/CVESPAÑOLCANDELA.pdf" download="cvcandela.pdf"  className='button-view-projects'> DESCARGAR CV 🚀</a>
       </div>
         </div>
     </section>
