@@ -1137,10 +1137,10 @@ right: 0;
 
 #offcanvasNavbar .nav-link {
   font-family: 'Groovy', sans-serif;
-  font-size: 8.5em;
+  font-size: 9.5em;
   color:  #1E2125;
   text-align: center;
-margin: auto;
+margin: 10px auto;
 transition: 1.5s, color .10s;
 -webkit-transition: 1.5s, color .10s;
 -moz-transition: 1.5s, color .10s;
@@ -1199,6 +1199,7 @@ margin: 150px auto;}
 
 .box-items-proj{
   width: 100%;
+  margin: 5.5vw auto;
 }
 
 .box-item{border:1px solid #E9DFCE;
@@ -1247,6 +1248,7 @@ text-align: left;
   .box-item img{grid-area: image;
   border-radius: 5px;
   height: 240px;
+object-fit:contain;
   margin: auto;
   transition: .5s, color .10s;
   -webkit-transition: .5s, color .10s;

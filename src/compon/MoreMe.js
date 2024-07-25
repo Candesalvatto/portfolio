@@ -92,7 +92,7 @@ export const MoreMe = () => {
             </div>
 
             <div className='container-button-viewer'>
-      <a href="../assets/doc/CVESPAÑOLCANDELA.pdf" download="cvcandela.pdf"  className='button-view-projects'> DESCARGAR CV 🚀</a>
+      <a href="/assets/doc/CVESPAÑOLCANDELA.pdf" download="CVESPAÑOLCANDELA.pdf"  className='button-view-projects'> DESCARGAR CV 🚀</a>
       </div>
         </div>
     </section>
