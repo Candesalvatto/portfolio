@@ -35,11 +35,13 @@ export const MoreMe = () => {
                 <li>TYPESCRIPT</li>
                 <li>ANGULAR</li>
                 <li>REACT</li>
+                <li>REACT NATIVE</li>
                 <li>NODE JS</li>
                 <li>EXPRESS</li>
                 <li>TAILWIND</li>
                 <li>BOOTSTRAP</li>
                 <li>SQL</li>
+                <li>FIREBASE</li>
                 <li>NoSQL</li>
                 <li>GIT</li>
                 <li>GITHUB</li>
@@ -75,6 +77,8 @@ export const MoreMe = () => {
             <h5 data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="1500">Certificaciones</h5>
             <div className='containerUL'>
               <ol>
+                <li>DESARROLLO DE APLICACIONES MÓBILES</li>
+                <li>CODERHOUSE</li>
                 <li>BACK END DEVELOPER </li>
                 <li>NUCBA</li>
                 <li>PYTHON </li>
